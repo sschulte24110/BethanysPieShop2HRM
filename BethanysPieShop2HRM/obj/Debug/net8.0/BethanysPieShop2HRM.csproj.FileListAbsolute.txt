@@ -1,0 +1,15 @@
+/Users/scottschulte/coding/pluralsight/BethanysPieShop2HRM/BethanysPieShop2HRM/bin/Debug/net8.0/BethanysPieShop2HRM
+/Users/scottschulte/coding/pluralsight/BethanysPieShop2HRM/BethanysPieShop2HRM/bin/Debug/net8.0/BethanysPieShop2HRM.deps.json
+/Users/scottschulte/coding/pluralsight/BethanysPieShop2HRM/BethanysPieShop2HRM/bin/Debug/net8.0/BethanysPieShop2HRM.runtimeconfig.json
+/Users/scottschulte/coding/pluralsight/BethanysPieShop2HRM/BethanysPieShop2HRM/bin/Debug/net8.0/BethanysPieShop2HRM.dll
+/Users/scottschulte/coding/pluralsight/BethanysPieShop2HRM/BethanysPieShop2HRM/bin/Debug/net8.0/BethanysPieShop2HRM.pdb
+/Users/scottschulte/coding/pluralsight/BethanysPieShop2HRM/BethanysPieShop2HRM/obj/Debug/net8.0/BethanysPieShop2HRM.GeneratedMSBuildEditorConfig.editorconfig
+/Users/scottschulte/coding/pluralsight/BethanysPieShop2HRM/BethanysPieShop2HRM/obj/Debug/net8.0/BethanysPieShop2HRM.AssemblyInfoInputs.cache
+/Users/scottschulte/coding/pluralsight/BethanysPieShop2HRM/BethanysPieShop2HRM/obj/Debug/net8.0/BethanysPieShop2HRM.AssemblyInfo.cs
+/Users/scottschulte/coding/pluralsight/BethanysPieShop2HRM/BethanysPieShop2HRM/obj/Debug/net8.0/BethanysPieShop2HRM.csproj.CoreCompileInputs.cache
+/Users/scottschulte/coding/pluralsight/BethanysPieShop2HRM/BethanysPieShop2HRM/obj/Debug/net8.0/BethanysPieShop2HRM.sourcelink.json
+/Users/scottschulte/coding/pluralsight/BethanysPieShop2HRM/BethanysPieShop2HRM/obj/Debug/net8.0/BethanysPieShop2HRM.dll
+/Users/scottschulte/coding/pluralsight/BethanysPieShop2HRM/BethanysPieShop2HRM/obj/Debug/net8.0/refint/BethanysPieShop2HRM.dll
+/Users/scottschulte/coding/pluralsight/BethanysPieShop2HRM/BethanysPieShop2HRM/obj/Debug/net8.0/BethanysPieShop2HRM.pdb
+/Users/scottschulte/coding/pluralsight/BethanysPieShop2HRM/BethanysPieShop2HRM/obj/Debug/net8.0/BethanysPieShop2HRM.genruntimeconfig.cache
+/Users/scottschulte/coding/pluralsight/BethanysPieShop2HRM/BethanysPieShop2HRM/obj/Debug/net8.0/ref/BethanysPieShop2HRM.dll
