@@ -13,3 +13,6 @@
 /Users/scottschulte/coding/pluralsight/BethanysPieShop2HRM/BethanysPieShop2HRM/obj/Debug/net8.0/BethanysPieShop2HRM.pdb
 /Users/scottschulte/coding/pluralsight/BethanysPieShop2HRM/BethanysPieShop2HRM/obj/Debug/net8.0/BethanysPieShop2HRM.genruntimeconfig.cache
 /Users/scottschulte/coding/pluralsight/BethanysPieShop2HRM/BethanysPieShop2HRM/obj/Debug/net8.0/ref/BethanysPieShop2HRM.dll
+/Users/scottschulte/coding/pluralsight/BethanysPieShop2HRM/BethanysPieShop2HRM/bin/Debug/net8.0/Newtonsoft.Json.dll
+/Users/scottschulte/coding/pluralsight/BethanysPieShop2HRM/BethanysPieShop2HRM/obj/Debug/net8.0/BethanysPieShop2HRM.csproj.AssemblyReference.cache
+/Users/scottschulte/coding/pluralsight/BethanysPieShop2HRM/BethanysPieShop2HRM/obj/Debug/net8.0/Bethanys.D8F61402.Up2Date

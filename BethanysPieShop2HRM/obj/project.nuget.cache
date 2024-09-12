@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "B7H7+7GiTW4=",
+  "dgSpecHash": "zdo2LQEmsxg=",
   "success": true,
   "projectFilePath": "/Users/scottschulte/coding/pluralsight/BethanysPieShop2HRM/BethanysPieShop2HRM/BethanysPieShop2HRM.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/scottschulte/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

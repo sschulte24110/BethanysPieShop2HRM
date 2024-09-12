@@ -2,42 +2,73 @@
 
 using BethanysPieShop2HRM;
 
+
 Console.WriteLine("Creating an employee");
 Console.WriteLine("---------------------\n");
 
 Employee bethany = new Employee("Bethany", "Smith", "bethany@snowball.be", new DateTime(1979, 1, 16), 25);
 
-bethany.DisplayEmployeeDetails();
+string bethanyAsJson = bethany.ConvertToJson();
+Console.WriteLine(bethanyAsJson);
 
-bethany.PerformWork();
-bethany.PerformWork();
-bethany.PerformWork(5);
-bethany.PerformWork();
+// bethany.PerformWork(25);
 
-bethany.firstName = "John";
-bethany.hourlyRate = 10;
+// string name = "bethany";
+// string anotherName = name;
+// name += " smith";
 
-bethany.DisplayEmployeeDetails();
-bethany.PerformWork();
-bethany.PerformWork(12);
-bethany.PerformWork();
-bethany.ReceiveWage();
+// Console.WriteLine("Name: " + name);
+// Console.WriteLine("Another name: " + anotherName);
 
-string fn = bethany.firstName;
+// string upperCaseName = name.ToUpper();
 
-double receivedWageBethany = bethany.ReceiveWage(true);
-Console.WriteLine($"Wage paid (message from Program): {receivedWageBethany}");
+// int minimumBonus = 100;
+// int receivedBonus = bethany.CalculateBonus(minimumBonus);
+// Console.WriteLine($"The minimum bonus is {minimumBonus} and {bethany.firstName} has received a bonus of {receivedBonus}");
 
-Console.WriteLine("Creating an employee");
-Console.WriteLine("---------------------\n");
+// int minimumBonus = 100;
+// int bonusTax;
+// int receivedBonus = bethany.CalculateBonusAndBonusTax(minimumBonus, out bonusTax);
+// Console.WriteLine($"The minimum bonus is {minimumBonus}, and the bonus tx is {bonusTax} and {bethany.firstName} has recieved a bonus of {receivedBonus}");
 
-Employee george = new("George", "Jones", "george@snowball.be", new DateTime(1984, 3, 28), 30);
 
-george.DisplayEmployeeDetails();
-george.PerformWork();
-george.PerformWork();
-george.PerformWork(3);
-george.PerformWork();
-george.PerformWork(8);
+// Employee testEmployee = bethany;
 
-var receivedWageGeorge = george.ReceiveWage(true);
+// testEmployee.firstName = "Gill";
+
+// testEmployee.DisplayEmployeeDetails();
+
+// bethany.DisplayEmployeeDetails();
+
+// bethany.PerformWork();
+// bethany.PerformWork();
+// bethany.PerformWork(5);
+// bethany.PerformWork();
+
+// bethany.firstName = "John";
+// bethany.hourlyRate = 10;
+
+// bethany.DisplayEmployeeDetails();
+// bethany.PerformWork();
+// bethany.PerformWork(12);
+// bethany.PerformWork();
+// bethany.ReceiveWage();
+
+// string fn = bethany.firstName;
+
+// double receivedWageBethany = bethany.ReceiveWage(true);
+// Console.WriteLine($"Wage paid (message from Program): {receivedWageBethany}");
+
+// Console.WriteLine("Creating an employee");
+// Console.WriteLine("---------------------\n");
+
+// Employee george = new("George", "Jones", "george@snowball.be", new DateTime(1984, 3, 28), 30);
+
+// george.DisplayEmployeeDetails();
+// george.PerformWork();
+// george.PerformWork();
+// george.PerformWork(3);
+// george.PerformWork();
+// george.PerformWork(8);
+
+// var receivedWageGeorge = george.ReceiveWage(true);
