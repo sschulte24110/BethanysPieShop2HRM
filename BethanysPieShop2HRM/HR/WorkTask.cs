@@ -1,6 +1,6 @@
 using System;
 
-namespace BethanysPieShop2HRM;
+namespace BethanysPieShop2HRM.HR;
 
 internal struct WorkTask
 {

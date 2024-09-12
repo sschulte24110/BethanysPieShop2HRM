@@ -3,7 +3,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using Newtonsoft.Json;
 
-namespace BethanysPieShop2HRM;
+namespace BethanysPieShop2HRM.HR;
 
 public class Employee
 {
@@ -13,7 +13,7 @@ public class Employee
 
   public int numberOfHoursWorked;
   public double wage;
-  public double hourlyRate;
+  public double? hourlyRate;
 
   public DateTime birthDay;
 
@@ -21,17 +21,19 @@ public class Employee
 
   public EmployeeType employeeType;
 
+  public static double taxRate = 0.15;
+
   public Employee(string first, string last, string em, DateTime bd) : this(first, last, em, bd, 0, EmployeeType.StoreManager)
   {
     
   }
-  public Employee(string first, string last, string em, DateTime bd, double rate, EmployeeType empType)
+  public Employee(string first, string last, string em, DateTime bd, double? rate, EmployeeType empType)
   {
     firstName = first;
     lastName = last;
     email = em;
     birthDay = bd;
-    hourlyRate = rate;
+    hourlyRate = rate ?? 10;
     employeeType = empType;
   }
 
@@ -104,15 +106,21 @@ public class Employee
 
   public double ReceiveWage(bool resetHours = true)
   {
+    double wageBeforeTax = 0.0;
+
     if (employeeType == EmployeeType.Manager)
     {
       Console.WriteLine($"An extra was added to the wage since {firstName} is a manager!");
-      wage = numberOfHoursWorked * hourlyRate * 1.25;
+      wageBeforeTax = numberOfHoursWorked * hourlyRate.Value * 1.25;
     }
     else 
     {
-    wage = numberOfHoursWorked * hourlyRate;
+    wageBeforeTax = numberOfHoursWorked * hourlyRate.Value;
     }
+
+    double taxAmount = wageBeforeTax * taxRate;
+
+    wage  = wageBeforeTax - taxAmount;
 
     Console.WriteLine($"{firstName} {lastName} has received a wage of {wage} for {numberOfHoursWorked} hour(s) of work.");
 
@@ -122,8 +130,13 @@ public class Employee
     return wage;
   }
 
+  public static void DisplayTaxRate()
+  {
+    Console.WriteLine($"The current tax rate is {taxRate}");
+  }
+
   public void DisplayEmployeeDetails()
   {
-    Console.WriteLine($"\nFirst name: \t{firstName}\nLast name: \t{lastName}\nEmail: \t\t{email}\nBirthday: \t{birthDay.ToShortDateString()}\n");
+    Console.WriteLine($"\nFirst name: \t{firstName}\nLast name: \t{lastName}\nEmail: \t\t{email}\nBirthday: \t{birthDay.ToShortDateString()}\nTax rate: \t{taxRate}");
   }
 }
