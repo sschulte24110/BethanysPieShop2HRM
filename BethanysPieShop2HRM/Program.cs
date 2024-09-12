@@ -13,63 +13,28 @@ Employee george = new("George", "Jones", "george@snowball.be", new DateTime(1984
 Console.WriteLine("Creating an employee");
 Console.WriteLine("---------------------\n");
 
-// bethany.PerformWork(25);
-
-// string name = "bethany";
-// string anotherName = name;
-// name += " smith";
-
-// Console.WriteLine("Name: " + name);
-// Console.WriteLine("Another name: " + anotherName);
-
-// string upperCaseName = name.ToUpper();
-
-// int minimumBonus = 100;
-// int receivedBonus = bethany.CalculateBonus(minimumBonus);
-// Console.WriteLine($"The minimum bonus is {minimumBonus} and {bethany.firstName} has received a bonus of {receivedBonus}");
-
-// int minimumBonus = 100;
-// int bonusTax;
-// int receivedBonus = bethany.CalculateBonusAndBonusTax(minimumBonus, out bonusTax);
-// Console.WriteLine($"The minimum bonus is {minimumBonus}, and the bonus tx is {bonusTax} and {bethany.firstName} has recieved a bonus of {receivedBonus}");
 
 
-// Employee testEmployee = bethany;
+bethany.DisplayEmployeeDetails();
 
-// testEmployee.firstName = "Gill";
+bethany.PerformWork();
+bethany.PerformWork();
+bethany.PerformWork(5);
+bethany.PerformWork();
 
-// testEmployee.DisplayEmployeeDetails();
+double receivedWageBethany = bethany.ReceiveWage(true);
+Console.WriteLine($"Wage paid (message from Program): {receivedWageBethany}");
 
-// bethany.DisplayEmployeeDetails();
+george.DisplayEmployeeDetails();
+george.PerformWork();
+george.PerformWork();
+george.PerformWork(3);
+george.PerformWork();
+george.PerformWork(8);
 
-// bethany.PerformWork();
-// bethany.PerformWork();
-// bethany.PerformWork(5);
-// bethany.PerformWork();
+var receivedWageGeorge = george.ReceiveWage(true);
 
-// bethany.firstName = "John";
-// bethany.hourlyRate = 10;
-
-// bethany.DisplayEmployeeDetails();
-// bethany.PerformWork();
-// bethany.PerformWork(12);
-// bethany.PerformWork();
-// bethany.ReceiveWage();
-
-// string fn = bethany.firstName;
-
-// double receivedWageBethany = bethany.ReceiveWage(true);
-// Console.WriteLine($"Wage paid (message from Program): {receivedWageBethany}");
-
-
-
-
-
-// george.DisplayEmployeeDetails();
-// george.PerformWork();
-// george.PerformWork();
-// george.PerformWork(3);
-// george.PerformWork();
-// george.PerformWork(8);
-
-// var receivedWageGeorge = george.ReceiveWage(true);
+WorkTask task;
+task.description = "Bake delicious pies";
+task.hours = 3;
+task.PerformWorkTask();

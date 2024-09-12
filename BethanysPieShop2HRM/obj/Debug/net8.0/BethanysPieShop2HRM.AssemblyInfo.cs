@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BethanysPieShop2HRM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea98cc6af73c44c761c95b4e6c70ec5bf459a60a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b571a2690960677c114d95b35ae39665243b4f51")]
 [assembly: System.Reflection.AssemblyProductAttribute("BethanysPieShop2HRM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BethanysPieShop2HRM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
